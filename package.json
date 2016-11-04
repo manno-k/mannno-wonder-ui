@@ -1,5 +1,5 @@
 {
-  "name": "manno-wonderwonder-ui",
+  "name": "manno-wonder-ui",
   "theme": "ui",
   "version": "1.0.1",
   "description": "navy background and orange text color.",
@@ -9,7 +9,7 @@
     "manno",
     "wonder"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/manno-k/mannno-wonder-ui.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
