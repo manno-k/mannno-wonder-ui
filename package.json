@@ -1,11 +1,13 @@
 {
-  "name": "ui-theme-template",
+  "name": "manno-wonder-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A short description of your UI theme",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "manno",
+    "wonder"
   ],
   "repository": "https://github.com/atom-community/ui-theme-template",
   "license": "MIT",

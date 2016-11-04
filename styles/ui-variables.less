@@ -12,14 +12,14 @@
 
 
 // Text Colors
-@text-color:           hsl(0,0%,66%);
-@text-color-subtle:    hsl(0,0%,50%);
-@text-color-highlight: hsl(0,0%,94%);
-@text-color-selected:  hsl(0,0%,100%);
+@text-color:           #c5c8c6;
+@text-color-subtle:    darken(#c5c8c6,30%);
+@text-color-highlight: lighten(#c5c8c6,15%);
+@text-color-selected:  lighten(#c5c8c6,55%);
 
 @text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
+@text-color-warning: lighten(#cc6666,20%);
 @text-color-error:   hsl(  9, 100%, 64%);
 
 // Background colors
@@ -29,12 +29,12 @@
 @background-color-error:   hsl(0,    70%, 50%);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  lighten(@base-background-color, 10%);
+@background-color-selected:  #F1330A;
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
-@base-border-color:     darken(@base-background-color, 8%);
+@base-background-color: lighten(#131827,4%);
+@base-border-color:     #969896;
 
 // Component colors
 @pane-item-background-color: @base-background-color;
